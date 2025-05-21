@@ -43,7 +43,7 @@ pipeline {
                     emailext (
                         subject: "Test Stage: ${currentBuild.currentResult}",
                         body: "The 'Run Tests' stage finished. Status: ${currentBuild.currentResult}",
-                        to: 'nguyenannar01157@gmail.com',
+                        to: 'nguyenhaanr00034@gmail.com',
                         attachLog: true
                     )
                 }
@@ -71,7 +71,7 @@ pipeline {
                     emailext (
                         subject: "Security Scan Stage: ${currentBuild.currentResult}",
                         body: "The 'Security Scan' stage finished. Status: ${currentBuild.currentResult}",
-                        to: 'nguyenannar01157@gmail.com',
+                        to: 'nguyenhaanr00034@gmail.com',
                         attachLog: true
                     )
                 }
